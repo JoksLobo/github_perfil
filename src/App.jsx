@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import Perfil from './components/Perfil';
-import Formulario from './components/formulario';
+
 import ReposList from './components/RepoList';
 
 function App() {
-  const [formularioEStaVisivel, setFormularioEstaVisivel] = useState(true);
+
   const [nomeUsuario, setNomeUsuario] = useState('');
   return(
     <div>
